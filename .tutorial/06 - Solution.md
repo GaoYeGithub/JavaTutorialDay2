@@ -13,9 +13,9 @@ class Main {
     String name = myObj.nextLine();  
     System.out.println("How many minutes have you coded");
     int mins = myObj.nextInt();  
-
+    myObj.close();
     int total = mins + 15;
-    System.out.println("Hello " + name + "congratulate for codeing " + total);
+    System.out.println("Hello " + name + " congratulate for codeing " + total);
   }
 }
 ```

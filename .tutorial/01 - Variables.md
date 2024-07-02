@@ -8,11 +8,12 @@
 ```java
 public class Main {
   public static void main(String[] args) {
-    String name = "Gary";
+    String firstName = "Gary";
     String lastName = "Gao";
-    System.out.println(name);
-    System.out.println("Hello " + name);
+    System.out.println(firstName);
+    System.out.println("Hello " + firstName);
     String fullName = firstName + lastName;
+    System.out.println("Hello " + fullName);
   }
 }
 ```
@@ -54,7 +55,7 @@ public class Main {
 public class Main {
   public static void main(String[] args) {
     final int num = 15;
-      num = 20;
+    num = 20;
     System.out.println(num);
   }
 }

@@ -5,9 +5,9 @@ Concatenating might seem like a big and diffcult however it super simple in fact
 ```java
 public class Main {
   public static void main(String[] args) {
-    String name = "Gary";
+    String firstName = "Gary ";
     String lastName = "Gao";
-    System.out.println("Hello " + name);
+    System.out.println("Hello" + firstName);
     String fullName = firstName + lastName;
   }
 }
@@ -20,8 +20,8 @@ Yes that it fusing two different string together in concating
 ```java
 public class Main {
   public static void main(String[] args) {
-    String firstName = "John ";
-    String lastName = "Doe";
+    String firstName = "Gary ";
+    String lastName = "Gao";
     System.out.println(firstName.concat(lastName));
   }
 }

@@ -10,7 +10,7 @@ class Main {
     System.out.println("Username");
     String userName = myObj.nextLine();  
     System.out.println("Password");
-
+    myObj.close();
     System.out.println("Username is " + userName);
     System.out.println("Password is " + userPass);
 
@@ -31,6 +31,7 @@ class Main {
     String userName = myObj.nextLine();  
     System.out.println("Password");
     String userPass = myObj.nextLine();  
+    myObj.close();
 
     System.out.println("Username is " + userName);
     System.out.println("Password is " + userPass);
